@@ -10,7 +10,8 @@ module.exports = {
       exclude: [],
       extensions: ['js', 'css', 'png', 'jpg', 'gif', 'map'],
       prepend: '',
-      replaceExtensions: ['html', 'css', 'js']
+      replaceExtensions: ['html', 'css', 'js'],
+      assetMap: false
     }
 
     // Allow simply setting { fingerprint: false } as a shortcut option to disable
